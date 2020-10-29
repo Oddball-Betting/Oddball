@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Oddballs.CreateAccount">
+   
+    <StackLayout Margin="0" HorizontalOptions="Fill" BackgroundColor="#00CE00" >
+             <Label Text="Oddball" HorizontalTextAlignment="Center" VerticalOptions = "Fill" FontFamily="Monaco" FontAttributes="Bold" TextColor="White" FontSize="72" AnchorY="3.5" HorizontalOptions="CenterAndExpand" Padding= "0,200,0,0" VerticalTextAlignment="Center" HeightRequest="-1"/>
+        
+
+        <Label Text="Try creating an account with us to start betting!" FontAttributes="Bold" TextColor="White" FontFamily="Monaco" FontSize="16" Padding="15,0,15,0"/>
+        <Label FontSize="16" Padding="30,24,30,0" AnchorX="9.5">
+        </Label>
+
+        <StackLayout>
+            <Entry x:Name="username_tb" Placeholder="New Username" FontFamily="Monaco" TextColor="Green" PlaceholderColor="Green" Margin="20, 0, 30,10" HorizontalOptions="FillAndExpand" FontSize="Body" FontAttributes="Bold"></Entry>
+            <Entry x:Name="password_tb" Placeholder="New Password" TextColor="Green" FontAttributes="Bold" Margin="20, 0, 30,20" PlaceholderColor="Green" ></Entry>
+            <Entry x:Name="Fname" Placeholder="First Name" TextColor="Green" FontAttributes="Bold" Margin="20, 0, 30,20" PlaceholderColor="Green" ></Entry>
+            <Entry x:Name="LName" Placeholder="Last Name" TextColor="Green" FontAttributes="Bold" Margin="20, 0, 30,20" PlaceholderColor="Green" ></Entry>
+            <Entry x:Name="Email" Placeholder="Email" TextColor="Green" FontAttributes="Bold" Margin="20, 0, 30,20" PlaceholderColor="Green" ></Entry>
+            <Entry x:Name="Phone" Placeholder="Phone #" TextColor="Green" FontAttributes="Bold" Margin="20, 0, 30,20" PlaceholderColor="Green" ></Entry>
+            <Entry x:Name="Address" Placeholder="Address" TextColor="Green" FontAttributes="Bold" Margin="20, 0, 30,20" PlaceholderColor="Green" ></Entry>
+
+
+
+        <Button HorizontalOptions="Center" TextColor="White" VerticalOptions="Center" Text="Sign In" Margin="10,0" Clicked="Button_Clicked_2" BackgroundColor="#388203" FontAttributes="Bold" BorderWidth="0" MinimumWidthRequest="7" Padding="100,0,100,0" >
+        </Button>
+
+
+
+                
+    </StackLayout>
+        </StackLayout>
+
+
+      
+   
+
+</ContentPage>
